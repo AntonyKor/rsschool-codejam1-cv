@@ -92,6 +92,30 @@ a:hover {
   font-size: 4em;
 }
 
+.top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+
+  display: block;
+  background-color: #660000;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+
+  font-size: 36px;
+  text-align: center;
+  line-height: 50px;
+
+  box-shadow: 0 0 10px #000;
+  opacity: 0.5;
+}
+
+.top:hover {
+  opacity: 1;
+  color: #f0f0f0;
+}
+
 @media screen and (min-width: 380px) {
   .skills-grid {
     display: grid;
